@@ -1,0 +1,26 @@
+# Generated task sets are deliberately not published. The value of the benchmark is
+# that no model has seen the tasks; committing them to a public repo puts them into
+# web-scraped corpora and burns them. Generate your own instead.
+data/generations/
+data/generations_stratified/
+
+# Cached ARC-AGI-1 evaluation set (Apache 2.0, fchollet/ARC-AGI).
+# Downloaded automatically on first run.
+data/arc_agi_eval.json
+
+# Derived caches, rebuilt by describe_eval_tasks.py / label_eval_tasks.py
+data/arc_agi_eval_descriptions.json
+data/arc_agi_eval_categories.json
+data/stratified_slot_plan.json
+
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+.env
+api_key.txt
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+.claude/
