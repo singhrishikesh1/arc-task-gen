@@ -81,26 +81,30 @@ training corpora and burns them.
 
 ## Measured output
 
-A 400-task run against the 400-task evaluation set:
+A 400-task run on `gpt-5.6` (the default generation model; see Install) against the
+400-task public evaluation set:
 
-| property | evaluation set | generated |
+| property | Public Evaluation Set | generated |
 |---|---|---|
 | input area, mean | 226.92 | 224.70 |
 | input area, median | 144.00 | 144.00 |
 | input rows, mean | 13.23 | 13.19 |
 | input cols, mean | 13.70 | 13.67 |
 | colours, mean | 5.35 | 5.24 |
-| training pairs ≥ 4 | 34.2% | 34.8% |
+| demonstration pairs ≥ 4 | 34.2% | 34.8% |
 | test pairs = 2 | 4.8% | 5.0% |
 
 ## How it works
 
 ### One task per call
 
-Each API call produces exactly one task, with up to `MAX_WORKERS` calls in flight at
-once. Batching several tasks into a single response makes the model economise: at 32
-tasks per response, mean grid area drops to 14 cells against the official
-evaluation set mean of 208 cells.
+Each API call requests exactly one task, with up to `MAX_WORKERS` calls in flight at
+once. This is a deliberate constraint: asking a single
+call to return several tasks at once measurably shrinks them, because the model spends
+roughly a fixed effort budget per response and divides it across however many tasks it
+was asked for. In a `gpt-5.6` test requesting 32 tasks per response, mean grid area was
+14 cells, against 208 cells for the official evaluation set, and the ~225-cell mean
+this tool gets at one task per call (see Measured output).
 
 ### Joint constraint sampling
 
