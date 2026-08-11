@@ -30,7 +30,7 @@ For a broader introduction and discussion, read the [accompanying blog post](htt
 
 ## ARC-AGI-1 Efficiency Frontier
 
-[View the Pathway ARC-AGI efficiency chart](assets/Pathway_ARC-AGI_result_chart.png)
+![Pathway ARC-AGI efficiency chart](assets/Pathway_ARC-AGI_result_chart.png)
 
 ## What You'll Find in This Repository
 
