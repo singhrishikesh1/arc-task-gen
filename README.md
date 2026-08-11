@@ -30,13 +30,7 @@ For a broader introduction and discussion, read the [accompanying blog post](htt
 
 ## ARC-AGI-1 Efficiency Frontier
 
-[View the Pathway ARC-AGI efficiency chart](https://drive.google.com/file/d/1j4kUMYqxDYPNWFPo2-clD2ljU54k1Y5W/view?usp=sharing)
-
-> **Note:** For the chart to render directly in this README, add the image to the repository—for example, at `assets/pathway-arc-agi-chart.png`—and replace the link above with:
->
-> ```markdown
-> ![Pathway ARC-AGI efficiency chart](assets/pathway-arc-agi-chart.png)
-> ```
+[View the Pathway ARC-AGI efficiency chart](assets/Pathway_ARC-AGI_result_chart.png)
 
 ## What You'll Find in This Repository
 
@@ -55,7 +49,7 @@ The generated `tasks.json` file follows the standard ARC format:
 
 It is compatible with existing ARC evaluation harnesses.
 
-Follow the instructions in [`instructions.md`](https://github.com/pathwaycom/arc-task-gen/blob/main/instructions.md) to start generating tasks.
+Follow the instructions in [`instructions.md`](instructions.md) to start generating tasks.
 
 ## Independent Reproduction
 
