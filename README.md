@@ -22,7 +22,7 @@ The architecture has also been tested in pretraining experiments ranging from 1B
 
 This repository accompanies the following paper:
 
-> B. Engdahl, A. Kosowski, J. Chorowski, Z. Stamirowska, P. Uznański, J. Jiang, R. Phadke, R. Kinas, and R. Zhong. [*BDH-CQ: Introducing In-Context Learning with Recurrent Latent Reasoning*](http://google.com).
+> B. Engdahl, A. Kosowski, J. Chorowski, Z. Stamirowska, P. Uznański, J. Jiang, R. Phadke, R. Kinas, and R. Zhong. [*BDH-CQ: Introducing In-Context Learning with Recurrent Latent Reasoning*](https://arxiv.org/abs/2608.09888).
 
 <!-- TODO: Replace the temporary paper link above with the arXiv URL when available. -->
 
