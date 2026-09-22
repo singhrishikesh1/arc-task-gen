@@ -56,3 +56,4 @@ Follow the instructions in [`instructions.md`](instructions.md) to start generat
 BDH-CQ's ARC-AGI-1 results were evaluated and reproduced by Łukasz Kaiser, a co-author of the Transformer architecture and TensorFlow.
 
 The results were also independently reproduced by Remigiusz Kinas, a contributor to Bielik, and Richard Zhong, an NYU researcher. Their work focused on model evaluation and benchmark robustness.
+
